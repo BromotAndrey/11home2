@@ -1,0 +1,111 @@
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.page{
+    display: flex;
+    align-items: center;
+    background-image: url(../img/BG.png);
+    width: 800px;
+    height: 600px;
+    margin: 0 auto;
+}
+.card{
+    display: flex;
+    
+    width: 686px;
+    height: 391px;
+    left: 57px;
+    top: 99px;
+    background: #111A28;
+    margin: 0 auto;
+    
+}
+.nike{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.shoe{
+    margin-top: 64px;
+    margin-left: 40px;
+}
+.menucircles{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-left: 30px;
+
+}
+.listofcircles{
+    margin-right: 5px;
+    list-style-type:none;
+}
+.comercial1{
+    font-family: Museo Sans Rounded;
+    font-style: normal;
+    font-weight: 250;
+    font-size: 24px;
+    line-height: 26px;
+    color: #E1E1E1;
+    margin-top: 69px;
+    margin-left: 76px;
+    
+}
+.comercial2{
+    font-family: Museo Sans Rounded;
+    font-style: normal;
+    font-weight: 250;
+    font-size: 24px;
+    line-height: 26px;
+    color: #E1E1E1;
+    margin-left: 76px;
+}
+
+
+.types{
+    font-family: Museo Sans Rounded;
+    font-style: normal;
+    font-weight: 250;
+    font-size: 14px;
+    line-height: 17px;
+    color: rgba(225, 225, 225, 0.54);
+    margin-top: 10px;
+    margin-left: 76px;
+}
+.fivestars{
+    display: flex;
+    list-style: none;
+    margin-top: 30px;
+    margin-left: 76px;
+}
+.ButtonsList{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 76px;
+}
+.button{
+    width: 69px;
+    height: 32px;
+    background: #111A28;
+    border: 1px solid rgba(255, 255, 255, 0.26);
+    box-sizing: border-box;
+    color: #E1E1E1;;
+}
+.marg{
+    margin-left: 15px;
+}
+.Bigbutton{
+    width: 184px;
+    height: 40px;
+    background: rgba(76, 82, 90, 0.26);
+    border: 1px solid rgba(255, 255, 255, 0.26);
+    box-sizing: border-box;
+    color: #E1E1E1;
+    margin-top: 30px;
+    margin-left: 76px;
+
+}
